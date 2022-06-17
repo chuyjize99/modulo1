@@ -1,5 +1,5 @@
 body{
-    background-color: #fffbf7;
+    background-color: #e9bd2d;
 }
 
 h1{
@@ -31,6 +31,8 @@ button{
 
 li{
     display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .header>*{
@@ -84,6 +86,45 @@ li{
 }
 
 .main{
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
+}
+
+.publish>h3{
+    color: #025157;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.publish>p{
+    color: #343434;
+}
+
+.publish{
+    margin-left: 30px;
+}
+
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.fixHeader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
