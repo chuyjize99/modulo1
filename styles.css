@@ -341,6 +341,41 @@ li{
     width: 100%;
   }
 
+  .success-stories .card .card-body .card-circle.everly {
+    background-color: #f9da73;
+    border: 5px solid #f9da73;
+  }
+  
+  .success-stories .card .card-body .card-circle.summit {
+    background-color: #81d742;
+    border: 5px solid #81d742;
+  }
+  
+  .success-stories .card .card-body .card-circle.mambe {
+    background-color: #ef7179;
+    border: 5px solid #ef7179;
+  }
+  
+  .success-stories .card .card-body .card-circle.everly img,
+  .success-stories .card .card-body .card-circle.summit img,
+  .success-stories .card .card-body .card-circle.mambe img {
+    object-fit: contain;
+    width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    .success-stories {
+      flex-direction: column;
+      padding: 5% 15px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .success-stories {
+      flex-direction: column;
+  }
+}
+
  /*Dispositivos moviles en vertical*/
   @media(max-width: 575px){
     /* .fixHeader,
