@@ -9,7 +9,7 @@
   padding: 5% 10%;
 }
 .blog .title {
-  color: red;
+  color: #025157;
 }
 .blog .process-list {
   margin-top: 40px;
@@ -17,6 +17,8 @@
 }
 .blog .process-list .process {
   margin-bottom: 25px;
+  display: flex;
+  color: #135359;
 }
 .blog .process-list .process > div > h3 {
   color: #025157;
@@ -37,12 +39,30 @@
 .blog .process-list .process .process-icon img {
   height: 100%;
 }
+.blog .process-description > p {
+  font-size: 15px;
+}
 .blog button {
   height: auto;
   border-radius: 8px;
   padding: 12px;
   width: 180px;
   margin-bottom: 15px;
+}
+.blog .metadata {
+  font-size: 15px;
+}
+.blog .metadata .category {
+  color: #67b54b;
+}
+.blog .metadata .read-time {
+  color: #979797;
+}
+.blog .author img {
+  border-radius: 100px;
+}
+.blog .author p {
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=output.css.map */

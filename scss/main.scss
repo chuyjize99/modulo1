@@ -7,7 +7,7 @@
 
     .title{
         @extend %base-title;
-        color: red;
+        color: $dark-green-title;
     }
 
     .process-list{
@@ -17,6 +17,8 @@
 
         .process{
             margin-bottom: 25px;
+            display: flex;
+            color: $dark-green-text;
 
 
             &>div{
@@ -46,11 +48,37 @@
         }
     }
 
+    .process-description{
+        &>p{
+            font-size: 15px;
+        }
+    }
+
     button{
         height: auto;
         border-radius: 8px;
         padding: 12px;
         width: 180px;
         margin-bottom: 15px;
+    }
+
+    .metadata{
+        font-size: 15px;
+
+        .category{
+            color: $light-green;
+        }
+    
+        .read-time{
+            color: $light-gray;
+        }
+    }
+    
+    .author img{
+        border-radius: 100px;      
+    }
+
+    .author p{
+        font-size: 15px;
     }
 }
