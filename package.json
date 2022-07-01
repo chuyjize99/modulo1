@@ -1,15 +1,24 @@
 {
   "name": "bedu",
   "version": "1.0.0",
-  "description": "",
   "main": "AñoBisiesto.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Jesus Jimenez",
   "license": "ISC",
   "dependencies": {
     "prompt": "^1.3.0",
+    "sass": "^1.53.0",
     "save": "^2.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuyjize99/modulo1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chuyjize99/modulo1/issues"
+  },
+  "homepage": "https://github.com/chuyjize99/modulo1#readme",
+  "description": ""
 }
